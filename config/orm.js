@@ -42,7 +42,7 @@ function printQuestionMarks(num){
   
         connection.query(queryString, vals, function(err, result) {
           if (err) throw err;
-          callbackb(result);
+          callback(result);
         });
       },
       
